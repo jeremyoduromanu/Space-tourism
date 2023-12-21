@@ -1,6 +1,7 @@
 import './App.css';
 import backgroundImage from './assets/home/background-home-desktop.jpg';
 
+
 function App() {
   const style = {
     backgroundImage: `url(${backgroundImage})`,
@@ -10,10 +11,18 @@ function App() {
     width: '100vw'
   };
 
-  return (
+  return ( 
+    
+   
+  
+    <body>
+    <main>
     <div style={style}>
       <h1>Home Page</h1>
     </div>
+    </main>
+    </body>
+    
   );
 }
 
